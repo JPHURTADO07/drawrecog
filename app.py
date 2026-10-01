@@ -83,7 +83,7 @@ if canvas_result.image_data is not None and api_key and analyze_button:
  
         base64_image = encode_image_to_base64("img.png")
             
-        prompt_text = (f"Write a history for childrens based  in the image in spanish")
+        prompt_text = (f"Describe the image in spanish")
     
       # Create the payload for the completion request
         messages = [
